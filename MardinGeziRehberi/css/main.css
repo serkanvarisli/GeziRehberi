@@ -1,0 +1,62 @@
+h1 {text-align: center;}
+body{
+    color:white;
+    
+}
+a:link {
+      color: blue;
+      background-color: white;
+      text-decoration: blue
+    }
+    a:visited {
+      color: black;
+      background-color: white;
+      text-decoration: white
+    }
+    .copyright {
+     margin-top: 45px;
+     padding: 20px 0px;
+     background-color: #23262d;
+}
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.col {
+  flex: 1 0 0%;
+}
+.center
+   {
+      margin-left:auto;
+      margin-right:auto;
+
+      width:90%;
+
+   }
